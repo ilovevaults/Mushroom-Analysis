@@ -1,4 +1,4 @@
-# Pizza-Restaurant-Project
+#Italian-Restaurant-Project
 ## Selected Topic
 Our selected topic is to determine where will be the best neighborhood in Manhattan to open up a pizza place based on the price, size, and how popular pizza is in each neighborhood of Manhattan.
 ## Reason for Topic
