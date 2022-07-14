@@ -1,8 +1,8 @@
 # Mushroom Project
 ## Selected Topic
-The selected topic for our project is how to tell if a mushroom is poisonous or edible based on various features.
+The selected topic for our project is how to tell if a mushroom is poisonous or edible based on various features. And we want to determine which features should be used in the model 
 ## Reason for Topic
-The reason we selected this topic is because there are 14,000 different species of mushrooms that come in different shapes, colors,textures, and sizes. It is important to be able to tell whether or not a mushroom is edible especially in a situation where 
+The reason we selected this topic is because there are 14,000 different species of mushrooms that come in different shapes, colors, textures, and sizes. It is important to be able to tell whether or not a mushroom is poisonous because certain poisonous mushrooms are dangerous when they are touched and there isn't any cure if a poisonous mushroom is consumed by accident. 
 ## Source for Data
 The source of data we used for our project is a dataset that contains 22 columns and 8124 rows of different mushrooms and mushroom features. Theese columns consists of features of mushrooms that range from the color of the cap to the population or the habitat of the mushroom. According to the data set about 52% of the mushrooms are edible while 48% of them are poisonous. 
 ## Questions We Hope to Answer
