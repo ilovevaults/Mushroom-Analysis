@@ -1,4 +1,4 @@
-#Mushroom Project
+Mushroom Project
 ## Selected Topic
 
 ## Reason for Topic
