@@ -12,9 +12,15 @@ In order to the clean the data we from the CSV file and the Mushroom_df I made s
 ## Supervised Machine Learning Model 
 The supervised machine learning model we decided to go with is the random forest model. This is because we are doing a binary classification(edible or poisonous) and we have more than 10 features for the model to sort through. One limitation of this model is that it is very complex because it creates by default 100 trees which uses up more resources and computing power. Some advantages of this model are there is no need for feature scaling and it can handle categorical values well. Before I trained the model I had to convert all of the string values because these models can only work with integers. To solve this I used the pd.get_dummies function and ended up creating more columns. This most likely affected the accuracy of the model. Then the data was split into train data and test data and in order to get a more accurate accuracy score I added a test_score parameter in the train_test_split function. The accuracy score ended up being 99.25% which was very high. I believe that in order to acheive a more realistic accuracy score is to use one-hot encoding to convert the string values to integers or using a model like the Distributed Random Forest.
 We ran two different tests with the random forest model. The first test we used a dataframe that had no NaN which meant there were fewer columns that can be used in the train and test data. This was the result.
+
 ![image](https://user-images.githubusercontent.com/98357581/180584632-b0695c13-e301-455e-b18e-aa43fb702afb.png)
+
 ![image](https://user-images.githubusercontent.com/98357581/180584640-7376dc10-d26d-4207-86e7-93f13e94eb81.png)
+
 The second test we ran was with the NaN values which meant we kept the original amount of columns from the original dataset. This was the result.
+
 ![image](https://user-images.githubusercontent.com/98357581/180584667-57f87fac-224f-4b31-9f6e-8e9e52193dbe.png)
+
 ![image](https://user-images.githubusercontent.com/98357581/180584675-43dc56d9-a831-4f6a-9524-4dffa289099e.png)
+
 The first test had a slightly better accuracy score than the second one. This is probably because of the NaN values that were used in the second test.
