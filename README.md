@@ -23,4 +23,4 @@ The second test we ran was with the NaN values which meant we kept the original 
 
 ![image](https://user-images.githubusercontent.com/98357581/180584675-43dc56d9-a831-4f6a-9524-4dffa289099e.png)
 
-The first test had a slightly better accuracy score than the second one. This is probably because of the NaN values that were used in the second test.
+The first test has had a slightly better accuracy score than the second one. This is probably because of the NaN values that were used in the second test.
