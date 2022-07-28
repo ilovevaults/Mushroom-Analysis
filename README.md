@@ -32,3 +32,5 @@ The first test has had a slightly better accuracy score than the second one. Thi
 So far we believe this model is the best one for this kind of test but as previously stated above there was not enough data available so our opinion on this model is not conclusive. The next step would be to use other models to determine if overfitting is the issue or use a dataset where the values are integers instead of strings so that there will be no need to convert them and possibly add more columns with dummy values. 
 ## Google Slides
 https://docs.google.com/presentation/d/1c_oBcm1AFuvdsWcKoHzMejbo3MkAcPxuccUvN4LbBCk/edit#slide=id.g136cc069d6d_0_0
+## Tableau Dashboard
+https://public.tableau.com/app/profile/nicholas.woo5022/viz/FinalMushroomProject/Dataframe
