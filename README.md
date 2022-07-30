@@ -30,5 +30,7 @@ The second test we ran was with the NaN values which meant we kept the original 
 
 The first test has had a slightly better accuracy score than the second one. This is probably because we included the NaN values in the second test. We believe there was not enough data used in the model which caused overfitting. This could be the reason behind the high accuracy score from both tests.
 So far we believe this model is the best one for this kind of test but as previously stated above there was not enough data available so our opinion on this model is not conclusive. The next step would be to use other models to determine if overfitting is the issue or use a dataset where the values are integers instead of strings so that there will be no need to convert them and possibly add more columns with dummy values. 
+## Future Analyis
+I believe there is still some work that needs to be done for this project. One of the things I want to do in the future is use other supervised machine learning models to determine if I can get a lower accuracy score and if the reason behind the 99% score is overfitting. It is possible the dataset we used was very good or while running the model something was off. The dataset we chose could have used more data and instead of using dummy values we should have instead used label encoding and binning so that the decision trees would have not been as skewed.
 ## Tableau Dashboard
 https://public.tableau.com/app/profile/nicholas.woo5022/viz/FinalMushroomProject/Dataframe
