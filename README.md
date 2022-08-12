@@ -1,4 +1,4 @@
-# Mushroom Project
+# Mushroom Analysis
 ## Selected Topic
 The selected topic for our project is how to tell if a mushroom is poisonous or edible based on various features. And we want to determine which features should be used in the model 
 ## Reason for Topic
